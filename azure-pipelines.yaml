@@ -12,7 +12,7 @@ stages:
             steps:
               - script: dotnet build
 
-  - stage: test
+  - stage:
       jobs:
         - job:
           pool:
