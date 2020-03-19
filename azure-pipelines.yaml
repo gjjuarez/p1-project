@@ -14,7 +14,7 @@ stages:
 
   - stage: test
       jobs:
-        - job: test
+        - job:
           pool:
             vmImage: ubuntu-18.04
           steps:
